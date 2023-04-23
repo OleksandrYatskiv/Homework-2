@@ -7,10 +7,10 @@ alert(`${firstString} ${secondString} ${thirdString}`);
 
 // Second part of the homework
 fiveDigitNumber = prompt('What is your five-digit number?');
-firstNumber = fiveDigitNumber.slice(0,1);
-secondNumber = fiveDigitNumber.slice(1,2);
-thirdNumber = fiveDigitNumber.slice(2,3);
-fourthNumber = fiveDigitNumber.slice(3,4);
-fifthNumber = fiveDigitNumber.slice(4,5);
+firstNumber = fiveDigitNumber[0]; 
+secondNumber = fiveDigitNumber[1]; 
+thirdNumber = fiveDigitNumber[2]; 
+fourthNumber = fiveDigitNumber[3]; 
+fifthNumber = fiveDigitNumber[4]; 
 
 alert(`${firstNumber} ${secondNumber} ${thirdNumber} ${fourthNumber} ${fifthNumber}`);
